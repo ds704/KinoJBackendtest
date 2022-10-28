@@ -13,7 +13,7 @@ public class MySqlConnector {
     public MySqlConnector(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://172.104.240.132/:3306/mydb", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://172.104.240.132/:3306/mydb", "ds704", "IbDuVJfI@J777");
         }catch (Exception e){
             System.out.println(e);
         }
