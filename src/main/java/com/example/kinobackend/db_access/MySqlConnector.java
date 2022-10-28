@@ -26,7 +26,7 @@ public class MySqlConnector {
     public String prepareStringForLikeOperation(String string){
         String outputString = "'%"+string+"%'";
         return outputString;
-    }
+    } //zeJ
 
     public String LocalDateToString(LocalDate date){
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
